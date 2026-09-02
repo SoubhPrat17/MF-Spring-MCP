@@ -14,4 +14,8 @@ public class FundService {
         return calculator.calculate(100,125);
     }
 
+    public double getReturn(double initial, double current) {
+        return calculator.calculate(initial,current);
+    }
+
 }

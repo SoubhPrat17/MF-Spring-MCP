@@ -9,7 +9,7 @@ public class FundCalculator {
 //        return "Calculation Complete";
 //    }
 
-    public double calculate(double initialValue, double finalValue) {
-        return ((finalValue - initialValue) / initialValue) * 100;
+    public double calculate(double initial, double current) {
+        return ((current - initial) / initial) * 100;
     }
 }
