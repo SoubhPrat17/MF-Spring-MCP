@@ -116,6 +116,146 @@ public class MutualFund {
     @Column(name="cl_low_52_week")
     private BigDecimal clLow52Week;
 
+    public String getClPlanId() {
+        return clPlanId;
+    }
+
+    public String getScheme() {
+        return scheme;
+    }
+
+    public String getPlanName() {
+        return planName;
+    }
+
+    public BigDecimal getClAum() {
+        return clAum;
+    }
+
+    public BigDecimal getClNav() {
+        return clNav;
+    }
+
+    public BigDecimal getAlpha() {
+        return alpha;
+    }
+
+    public BigDecimal getSharpe() {
+        return sharpe;
+    }
+
+    public BigDecimal getBeta() {
+        return beta;
+    }
+
+    public BigDecimal getClSortinoRatio() {
+        return clSortinoRatio;
+    }
+
+    public Integer getMinimumInvestment() {
+        return minimumInvestment;
+    }
+
+    public String getClFundRating() {
+        return clFundRating;
+    }
+
+    public String getClIsinCode() {
+        return clIsinCode;
+    }
+
+    public String getClFrequency() {
+        return clFrequency;
+    }
+
+    public String getExitLoad() {
+        return exitLoad;
+    }
+
+    public BigDecimal getRlClRet1Year() {
+        return rlClRet1Year;
+    }
+
+    public BigDecimal getRlClRet2Year() {
+        return rlClRet2Year;
+    }
+
+    public BigDecimal getRlClRet3Year() {
+        return rlClRet3Year;
+    }
+
+    public BigDecimal getRlClRet4Year() {
+        return rlClRet4Year;
+    }
+
+    public BigDecimal getRtRolling1Year() {
+        return rtRolling1Year;
+    }
+
+    public BigDecimal getRlClRet5Year() {
+        return rlClRet5Year;
+    }
+
+    public BigDecimal getRtRolling2Year() {
+        return rtRolling2Year;
+    }
+
+    public BigDecimal getRtRolling3Year() {
+        return rtRolling3Year;
+    }
+
+    public BigDecimal getClAverageMaturityPeriod() {
+        return clAverageMaturityPeriod;
+    }
+
+    public BigDecimal getClAvgYtm() {
+        return clAvgYtm;
+    }
+
+    public BigDecimal getClDuration() {
+        return clDuration;
+    }
+
+    public BigDecimal getClAnnualisedYtm() {
+        return clAnnualisedYtm;
+    }
+
+    public String getClCategoryName() {
+        return clCategoryName;
+    }
+
+    public String getClRank() {
+        return clRank;
+    }
+
+    public BigDecimal getClPe() {
+        return clPe;
+    }
+
+    public BigDecimal getClPb() {
+        return clPb;
+    }
+
+    public BigDecimal getClLargePercentage() {
+        return clLargePercentage;
+    }
+
+    public BigDecimal getClMidPercentage() {
+        return clMidPercentage;
+    }
+
+    public BigDecimal getClSmallPercentage() {
+        return clSmallPercentage;
+    }
+
+    public BigDecimal getClLow52Week() {
+        return clLow52Week;
+    }
+
+    public BigDecimal getClHigh52Week() {
+        return clHigh52Week;
+    }
+
     @Column(name="cl_high_52_week")
     private BigDecimal clHigh52Week;
 
