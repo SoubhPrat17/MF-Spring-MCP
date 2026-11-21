@@ -22,7 +22,7 @@ public class MutualFundController {
     }
 
     @GetMapping("/funds/rating/{rating}")
-    public List<MutualFund> getStarStar( @PathVariable String rating){
+    public List<MutualFund> getFundsByRating( @PathVariable String rating){
         return mutualFundService.getFundsByClRating(rating);
     }
 
