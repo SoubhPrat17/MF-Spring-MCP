@@ -11,5 +11,6 @@ public interface MutualFundRepository extends JpaRepository<MutualFund, String> 
     String: The data type of its primary key (cl_plan_id). */
 
     List<MutualFund> findByClFundRating(String clFundRating);
+    List<MutualFund> findByClCategory(String category);
 //    This method name is understood by Spring Data JPA as a query to find record by cl_fund_rating
 }

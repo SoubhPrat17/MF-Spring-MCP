@@ -25,4 +25,9 @@ public class MutualFundService {
         return fundsByClRating;
     }
 
+    public List<MutualFund> getFundsByClCategory(String category){
+        List<MutualFund> fundsByCategory=mutualFundRepository.findByClCategory(category);
+        return fundsByCategory;
+    }
+
 }
