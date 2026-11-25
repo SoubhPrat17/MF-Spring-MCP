@@ -30,4 +30,9 @@ public class MutualFundService {
         return fundsByCategory;
     }
 
+    public List<MutualFund> getFundsByMultipleCriteria(String clFundRating, String category){
+        List<MutualFund> fundsByMultipleCriteria=mutualFundRepository.findByMultipleCriteria(clFundRating, category);
+        return fundsByMultipleCriteria;
+    }
+
 }

@@ -12,5 +12,6 @@ public interface MutualFundRepository extends JpaRepository<MutualFund, String> 
 
     List<MutualFund> findByClFundRating(String clFundRating);
     List<MutualFund> findByClCategory(String category);
+    List<MutualFund> findByMultipleCriteria(String clFundRating, String category);
 //    This method name is understood by Spring Data JPA as a query to find record by cl_fund_rating
 }

@@ -33,4 +33,9 @@ public class MutualFundController {
         return mutualFundService.getFundsByClCategory(category);
     }
 
+    @GetMapping("/category/rating={rating}&category={category")
+    public List<MutualFund> getFundsByMultipleCriteria(@PathVariable String rating, @PathVariable String category){
+        return mutualFundService.getFundsByMultipleCriteria(rating, category);
+    }
+
 }
